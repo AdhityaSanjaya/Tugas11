@@ -1,0 +1,77 @@
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    color: #333;  
+    
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table th, table td {
+    border: 1px solid #216161;;
+    padding: 8px;
+    text-align: left;
+}
+table th {
+    background-color: #adebff;
+}
+table img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    height: auto;
+}
+
+.tambah-barang-header img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 200px;
+height: auto;
+}
+
+button {
+    background-color: #adebff;
+    color: black; 
+    border: none; 
+    padding: 10px 20px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px; 
+}
+
+button:hover {
+    background-color: #003456
+}
+
+
+.edit, .delete {
+    background-color: #adebff;
+    color: black; 
+    border: 2px solid #003456; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px; 
+    cursor: pointer;
+    border-radius: 4px; 
+}
+
+.edit:hover, .delete:hover {
+    background-color: #003456; 
+    color: white;
+    border: 2px solid #adebff; 
+}
